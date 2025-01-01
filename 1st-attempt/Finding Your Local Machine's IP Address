@@ -1,0 +1,8 @@
+# On Linux:
+# Open a terminal and type:
+
+ip a
+
+# On Windows:
+# Open Command Prompt and type:
+ipconfig
