@@ -1,2 +1,6 @@
+# Installation of the metasploit
 sudo apt update
 sudo apt install metasploit-framework
+
+# Verify the installation:
+msfconsole --version
