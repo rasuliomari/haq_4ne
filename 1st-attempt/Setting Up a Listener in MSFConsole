@@ -1,2 +1,5 @@
 # Launch the msfconsole:
 msfconsole
+
+# Set up a listener:
+use exploit/multi/handler
