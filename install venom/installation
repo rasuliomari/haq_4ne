@@ -7,3 +7,6 @@ cd venom
 # make the executable
 chmod +x venom.sh
 
+# run venom
+./venom.sh
+
